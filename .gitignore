@@ -1,43 +1,100 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
+# Dependencies
 node_modules/
+.pnp/
+.pnp.*
 
-# Expo
+# Expo & EAS
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
+.eas/
 
-# Native
+# Native & Continuous Native Generation (CNG)
+/ios
+/android
+ios/
+android/
 .kotlin/
+.gradle/
+build/
 *.orig.*
 *.jks
 *.p8
 *.p12
 *.key
+*.keystore
 *.mobileprovision
+*.apk
+*.aab
+*.ipa
+*.xctest
+*.app
+*.dSYM.zip
+*.dSYM
+.cxx/
 
-# Metro
+# Metro & Bundler
 .metro-health-check*
+.metro/
+metro-cache/
+*.metro.cache
 
-# debug
+# Debug & Logs
+*.log
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+pnpm-debug.log*
+lerna-debug.log*
 
-# macOS
+# Environment & Secrets
+.env
+.env.*
+.env*.local
+!.env.example
+!.env*.example
+
+# TypeScript & Tests
+*.tsbuildinfo
+coverage/
+*.lcov
+.nyc_output/
+
+# IDE & Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Operating System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
 *.pem
 
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
-
-app-example
-
-# generated native folders
-/ios
-/android
+# Project Specific & Tooling Artifacts
+app-example/
+graphify-out/
+clerk-expo/
+.agents/
