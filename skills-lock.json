@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "argent-react-native-app-workflow": {
+      "source": "software-mansion/argent",
+      "sourceType": "github",
+      "skillPath": "packages/skills/skills/argent-react-native-app-workflow/SKILL.md",
+      "computedHash": "f7bc4b9755fbed460aae9c54ad288d21e6d74c4aefe0e80e09b492d0c774bab0"
+    },
+    "argent-react-native-optimization": {
+      "source": "software-mansion/argent",
+      "sourceType": "github",
+      "skillPath": "packages/skills/skills/argent-react-native-optimization/SKILL.md",
+      "computedHash": "0594c9bef29cad5b27a997d531cb76820e6faf6353af174eb0daf5287f0a95da"
+    },
+    "argent-react-native-profiler": {
+      "source": "software-mansion/argent",
+      "sourceType": "github",
+      "skillPath": "packages/skills/skills/argent-react-native-profiler/SKILL.md",
+      "computedHash": "81ce5e2edd9db93a9fc6e4408148e4d9201612f8a986c6e073844fb089278711"
+    },
+    "react-native-best-practices": {
+      "source": "callstackincubator/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-best-practices/SKILL.md",
+      "computedHash": "5b9722518860a462a9308759b7046725e4a1ab59642ad6a6e520afc45bc8373b"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-skills/SKILL.md",
+      "computedHash": "a804b4e848059822638c390359976f7021380bcefb1469d473aa4e9202c15ecb"
+    }
+  }
+}
